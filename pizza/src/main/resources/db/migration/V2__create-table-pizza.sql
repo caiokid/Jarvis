@@ -1,0 +1,11 @@
+
+
+
+CREATE TABLE IF NOT EXISTS  Pizza(
+    id  SERIAL PRIMARY KEY,
+    nome VARCHAR(255) NOT NULL,
+    preco DOUBLE NOT NULL,
+    disponivel VARCHAR(255) NOT NULL,
+    tamanho VARCHAR(255) NOT NULL,
+    sabor VARCHAR(255) NOT NULL
+    );

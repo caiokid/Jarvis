@@ -1,0 +1,1 @@
+alter table Pizza add categoria VARCHAR(255) NOT NULL;
